@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable:no">
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+    <header>
+      <svg width="250px" heigth="130px" viewBox="0 90 250 130">
+        <image width="250px" heigth="250px" xlink:href="../Media/img/logo.svg"></image>
+      </svg>
+      <h1>Hoja de Vida</h1>
+      <h1>Hector Luis Rabines Arellano</h1>
+      <h2>06 de Octubre de 1966</h2>
+      <h3>Iquitos - Perú</h3>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="#">Eduacion</a></li>
+        <li><a href="experiencia.html">Experiencia</a></li>
+      </ul>
+    </nav>
+    <section>
+      <article name="Educacion">
+        <h2>
+          Educacion
+        </h2>
+        <table border="1" cellspacing="0">
+          <thead>
+            <tr>
+              <th>Año</th>
+              <th>Instituto</th>
+              <th>Lugar</th>
+              <th>¿Culmino?</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1996</td>
+              <td>Tarapaca</td>
+              <td>Iquitos</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2000</td>
+              <td>Ruy Guzman</td>
+              <td>Iquitos</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2005</td>
+              <td>Colegio Nacional Iquitos</td>
+              <td>Iquitos</td>
+              <td>Si</td>
+            </tr>
+            <tr>
+              <td>2011</td>
+              <td>Universidad Cientifica del Peru</td>
+              <td>Iquitos</td>
+              <td>Si</td>
+            </tr>
+          </tbody>
+        </table>
+      </article>
+      <hr size="2"/>
+      <article name="Agregar Eduacion">
+        <h2>
+          Agregar Eduacion
+        </h2>
+        <form>
+          <p>
+            <label for="Año"> Año: </label>
+            <select name="años" required="">
+              <option>2016</option>
+              <option>2017</option>
+              <option>2018</option>
+              <option>2019</option>
+              <option>2020</option>
+              <option>2021</option>
+              <option>2022</option>
+              <option>2023</option>
+            </select>
+          </p>
+          <p>
+            <label for="institucion">Institucion :</label>
+            <input type="text" name="instituto" placeholder="Nombre de Instituto" autofocus size="40" maxlength="50" required="">
+          </p>
+          <p>
+            <label for="lugar">Lugar :</label><br>
+            <textarea name="lugar" rows="4" cols="50" maxlength="250" required=""></textarea>
+          </p>
+          <p>
+            <label for="culmino">¿Culmino?</label>
+            <input type="radio" name="culmino" value="SI" checked="">SI
+            <input type="radio" name="culmino" value="NO">NO
+          </p>
+          <p>
+            <input type="submit" name="Enviar" value="Enviar">
+          </p>
+      </form>
+      </article>
+    <footer>
+      <h3>
+        @Derechos Reservados
+      </h3>
+      <ul>
+        <li><strong>Email:</strong> hector.rabines@gmail.com</li>
+        <li><strong>Telefono:</strong> (+51) 930-234984</li>
+        <li><strong>Direccion:</strong> Urbanizacion Rio Mar "D" - 12, Iquitos, Maynas, Perú </li>
+      </ul>
+    </footer>
+  </body>
+</html>
